@@ -1,0 +1,18 @@
+.App {
+  height: 100vh;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+  position: relative;
+}
+main {
+  flex: 1;
+  background: rgba(252, 246, 249, 0.78);
+  border: 3px solid #ffffff;
+  backdrop-filter: blur(4.5px);
+  border-radius: 32px;
+  overflow-x: hidden;
+}
+main::-webkit-scrollbar {
+  width: 0;
+}
